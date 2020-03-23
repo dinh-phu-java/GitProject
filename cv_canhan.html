@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+        html{
+            font-family:Tahoma,"Times New Roman",Times, Serif;
+            font-size:100%;
+        }
+        body{
+            background-color:#7a7a79;
+        }
+
+        main{
+            width:720px;
+            height:100%;
+            margin:15px auto 20px auto;
+            background-color:white;
+            box-shadow: 0px 0px 15px #b5b5b1;
+
+        }
+        header{
+            padding-top:20px;
+            padding-bottom:20px;
+
+        }
+        header aside{
+            width:30%;
+            margin-right:20px;
+            float:left;
+
+        }
+        header aside img{
+            width:150px;
+            height:200px;
+            margin-left:30px;
+            padding:5px;
+            border:1px solid black;
+            background-color:#fffff0;
+            border-radius:4px;
+
+        }
+        header section{
+            width:70%;
+            margin-left:20px;
+
+        }
+        p{
+            line-height:1.6;
+        }
+        h1{
+            font-size:2em;
+            padding: 0 0 10px 0;
+        }
+        h4{
+            font-size:0.7em;
+        }
+        article {
+            padding:0px 30px 20px 30px;
+        }
+        article h1{
+            font-size:1.2em;
+            padding-top:5px;
+            padding-bottom:7px;
+            border-bottom:1px dashed black;
+        }
+        article p{
+            font-size:0.8em;
+            padding:5px 0 7px 5px;
+        }
+        article h1{
+            font-size:1.1em;
+        }
+        article h2{
+            padding-top:5px;
+            font-size:0.9em;
+        }
+        article h3{
+            font-size:0.8em;
+            padding-top:5px;
+        }
+        article aside{
+            padding-top:5px;
+            display:inline-block;
+            vertical-align: top;
+            width:30%;
+        }
+        article section{
+            display:inline-block;
+            width:60%;
+        }
+        header:after{
+            content:" ";
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <aside>
+                <img src="img/avatar.jpg" alt="avatar" width="300" height="300">
+            </aside>
+            <section>
+                <h1>Nguyen Dinh Phu</h1>
+                <h4>IT Staff</h4>
+                <p><strong>Date of birth: </strong> Jan 10 2000</p>
+                <p><strong>Gender: </strong> male</p>
+                <p><strong>Email: </strong>abc@gmail.com</p>
+                <p><strong>Phone: </strong>1235678</p>
+                <p><strong>Address: Hoa Ky</strong></p>
+                <p><strong>Website: abc.com.vn</strong></p>
+
+            </section>
+            <div style="clear:both;"></div>
+        </header>
+        <article id="Objective">
+            <h1>Objective</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+        </article>
+        <article id="education">
+            <h1>Education</h1>
+            <aside>
+                <p>Sep - 2015 ~ Oct - 2020 </p>
+            </aside>
+            <section>
+                <h2>ABC University</h2>
+                <p>Major: Information Technology</p>
+            </section>
+        </article>
+        <article id="workExperience">
+            <h1>Working Experience</h1>
+            <aside>
+                <p>Mar -2017 ~ Now</p>
+            </aside>
+            <section>
+                <h2>ABC Company</h2>
+                <h3>IT Staff</h3>
+                <p> + Web programming</p>
+                <p>+ Codegym</p>
+                <p>+ Javascript</p>
+                <p>+ CSS3</p>
+            </section>
+        </article>
+        <article id="interest">
+            <h1>Interest</h1>
+            <aside><p>Sport</p></aside>
+            <section>
+                <p>Football</p>
+                <p>Swimming</p>
+                <p>Boxing</p>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
