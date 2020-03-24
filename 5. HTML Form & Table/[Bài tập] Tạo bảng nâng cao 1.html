@@ -28,20 +28,28 @@
             text-align:center;
 
         }
-        table td:nth-child(even){
+        table tr:nth-child(even) td:nth-child(even){
             background-color:white;
             border:1px solid black;
         }
-        table td:nth-child(odd){
+        table tr:nth-child(even) td:nth-child(odd){
+            background-color:black;
+            border:1px solid black;
+        }
+        table tr:nth-child(odd) td:nth-child(even){
             background-color:black;
             border:1px solid white;
         }
-        table td:first-of-type{
+        table tr:nth-child(odd) td:nth-child(odd){
+            background-color:white;
+            border:1px solid white;
+        }
+         table#tab td:first-of-type{
             background-color:#ffdeba;
             color:black;
             border:none
         }
-        table tr:first-of-type  td{
+        table#tab tr:first-of-type  td{
             background-color:#ffdeba;
             color:black;
             border:none;
@@ -50,7 +58,7 @@
     </style>
 </head>
 <body>
-    <table >
+    <table id="tab">
         <tr>
             <td></td>
             <td>1</td>
