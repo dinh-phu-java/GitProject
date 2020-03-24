@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Table simple </title>
+    <style>
+        table{
+            border-collapse:collapse;
+            text-align:center;
+        }
+        table th,td{
+            padding:5px;
+        }
+        table th{
+            background-color:yellow;
+        }
+        table .th_3{
+            background-color:white;
+        }
+        table .under_th td{
+            background-color:#ffdbb5;
+        }
+
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>Thời khóa biểu</caption>
+        <colgroup>
+            <col id="">
+            <col id="">
+            <col id="">
+        </colgroup>
+        <tr>
+            <th colspan="3" class="th_3"></th>
+            <th scope="col">Thứ 3</th>
+            <th scope="col">Thứ 5</th>
+            <th scope="col">Thứ 7</th>
+        </tr>
+        <tr class="under_th">
+            <td >Tuần</td>
+            <td>Ngày bắt đầu</td>
+            <td>Ngày kết thúc</td>
+            <td colspan="3" >Môn học</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>01/09/2009</td>
+            <td>05/09/2009</td>
+            <td>CF - T1,L1 </td>
+            <td> CF - T2, L2</td>
+            <td>CF - T3,L3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>09/09/2009</td>
+            <td>12/09/2009</td>
+            <td>CF - T4,L4 </td>
+            <td> CF - Written Test</td>
+            <td>CF - T1, L1</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>..</td>
+            <td>..</td>
+            <td>..</td>
+            <td>..</td>
+            <td>..</td>
+        </tr>
+    </table>
+</body>
+</html>
