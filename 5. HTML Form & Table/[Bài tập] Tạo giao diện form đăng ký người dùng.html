@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[Bài tập] Tạo giao diện form đăng ký người dùng</title>
+    <style>
+        section label, section input{
+            display:block;
+            padding:5px;
+        }
+        section input[type="radio"]{
+            display:inline;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <section>
+            <label for="">Họ và Tên</label>
+            <input type="text" name="hoten">
+        </section>
+        <section>
+            <label for="">Email: </label>
+            <input type="text" name="email">
+        </section>
+        <section>
+            <label for="">Số điện thoại</label>
+            <input type="text" name="sdt">
+        </section>
+        <section>
+            <label for="">Giới tinh</label>
+            <div>
+                <input type="radio" name="gender" value="name"> Nam
+                <input type="radio" name="gender" value="nu"> Nữ
+            </div>
+        </section>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
