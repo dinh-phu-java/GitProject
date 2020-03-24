@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple Table</title>
+    <style>
+        html{
+            background-color:#ccc;
+        }
+        body{
+            width:720px;
+            margin:10px auto;
+            padding:15px;
+            background-color:white;
+            box-shadow:0 0 15px rgba(0,0,0,0.6)
+        }
+        table{
+            width:100%;
+
+            text-align:center;
+            border:1px solid black;
+            border-radius:10px;
+            border-collapse:collapse;
+        }
+        table caption{
+            padding:5px;
+            text-transform:uppercase;
+            text-align:right;
+        }
+        table th,td{
+            border:1px solid black;
+            padding:5px;
+        }
+        table th:nth-child(1){
+            background-color:#afff8c;
+        }
+        table th:nth-child(2){
+            background-color:#52a5ff;
+        }
+        table th:nth-child(3){
+            background-color:#ff665e;
+        }
+
+        #quy {
+            width:15%;
+        }
+    </style>
+</head>
+<body>
+    <table >
+        <caption>Doanh Thu</caption>
+        <colgroup>
+            <col id="quy">
+            <col id="thang">
+            <col id="doanh_thu">
+        </colgroup>
+        <tr>
+            <th scope="col">Quý </th>
+            <th scope="col">Tháng </th>
+            <th scope="col">Doanh Thu </th>
+        </tr>
+        <tr>
+            <td rowspan="4">Một</td>
+            <td>1</td>
+            <td>50k</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>60k</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>55k</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>67k</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4">Hai</td>
+            <td>5</td>
+            <td>50k</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>60k</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>55k</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>67k</td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
