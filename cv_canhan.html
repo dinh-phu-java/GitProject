@@ -98,6 +98,28 @@
             content:" ";
             clear:both;
         }
+        a{
+            text-decoration:   none;
+        }
+        table{
+            border-collapse: collapse;
+            width:100%;
+            margin-top:10px;
+        }
+        table th:first-of-type{
+            background-color:#a8ffb4;
+
+        }
+        table th:nth-of-type(2){
+            background-color:#abceff;
+        }
+        table th:last-of-type{
+            background-color:#fff2ba;
+        }
+        table th, table td{
+            padding:5px 7px;
+            text-align:center;
+        }
     </style>
 </head>
 <body>
@@ -114,7 +136,7 @@
                 <p><strong>Email: </strong>abc@gmail.com</p>
                 <p><strong>Phone: </strong>1235678</p>
                 <p><strong>Address: Hoa Ky</strong></p>
-                <p><strong>Website: abc.com.vn</strong></p>
+                <a href="#"><strong>Website: https://abc.com.vn</strong></a>
 
             </section>
             <div style="clear:both;"></div>
@@ -157,6 +179,33 @@
                 <p>Swimming</p>
                 <p>Boxing</p>
             </section>
+        </article>
+        <article>
+            <h1>Skill</h1>
+            <table border="1">
+                <tr>
+                    <th>
+                        Web App
+                    </th>
+                    <th>
+                        Desktop App
+                    </th>
+                    <th>
+                        Mobile App
+                    </th>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>C#</td>
+                    <td>OBject C</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Java</td>
+                    <td></td>
+                </tr>
+
+            </table>
         </article>
     </main>
 </body>
